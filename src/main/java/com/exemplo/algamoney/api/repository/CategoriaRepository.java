@@ -7,5 +7,5 @@ import com.exemplo.algamoney.api.model.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
-
+	public Categoria findByCodigo(Long codigo);
 }
