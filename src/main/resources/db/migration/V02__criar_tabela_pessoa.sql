@@ -7,5 +7,6 @@ CREATE TABLE pessoa (
     bairro VARCHAR(20),
     cep VARCHAR(11),
     cidade VARCHAR(50),
-    estado VARCHAR(20)
+    estado VARCHAR(20),
+    ativo BOOL NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
